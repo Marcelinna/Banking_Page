@@ -15,3 +15,4 @@ menuMobileBurger.addEventListener("click", () => {
     menuMobileBurger.firstChild.src = "images/icon-hamburger.svg";
   }
 });
+
