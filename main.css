@@ -40,6 +40,7 @@ button {
 
 button:hover {
   cursor: pointer;
+  opacity:0.8;
 }
 
 .nav-wrapper {
@@ -61,7 +62,7 @@ button:hover {
 
 .nav-wrapper ul li a {
   text-decoration: none;
-  padding-bottom: 36px;
+  padding-bottom: 31px;
   color: var(--grayish-blue);
   font-size: 0.9em;
 }
