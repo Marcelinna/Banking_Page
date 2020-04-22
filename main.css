@@ -40,7 +40,7 @@ button {
 
 button:hover {
   cursor: pointer;
-  opacity:0.8;
+  opacity: 0.8;
 }
 
 .nav-wrapper {
@@ -95,6 +95,8 @@ button:hover {
   overflow-x: hidden;
   background-position: 32em -12em;
   width: 100%;
+  max-width: 1450px;
+  margin: 0 auto;
 }
 
 .invitation-content {
@@ -134,7 +136,7 @@ button:hover {
 .invitation-content-image img {
   width: 100%;
   height: auto;
-  margin-left: 13em;
+  margin-left: 15em;
   margin-top: -6em;
 }
 
@@ -142,7 +144,9 @@ button:hover {
 
 .description-quality-wrapper {
   background-color: var(--light-grayish-blue);
+  max-width: 1450px;
   width: 100%;
+  margin: 0 auto;
   margin-top: -10em;
 }
 
@@ -195,6 +199,8 @@ button:hover {
 .article-wrapper {
   background-color: var(--very-light-gray);
   width: 100%;
+  max-width: 1450px;
+  margin: 0 auto;
 }
 
 .article-content {
@@ -264,6 +270,8 @@ button:hover {
 .footer-wrapper {
   background-color: var(--dark-blue);
   width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .footer-content {
