@@ -26,7 +26,7 @@ body {
 
 button {
   background: rgb(49, 211, 92);
-  background: -webkit-gradient(
+  background: -webkit-linear-gradient(
     linear,
     left top, right top,
     color-stop(42%, rgba(49, 211, 92, 0.7)),
@@ -89,7 +89,7 @@ button:hover {
   border-bottom: 4px;
   border-bottom-style: solid;
   -o-border-image: -o-linear-gradient(left, #31d35c, #2bb7da);
-     border-image: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+     border-image: -webkit-linear-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
      border-image: linear-gradient(to right, #31d35c, #2bb7da);
   border-image-slice: 1;
   color: rgb(39, 37, 37);
@@ -319,7 +319,7 @@ button:hover {
 .footer-content-items {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[5];
+  -ms-grid-columns: (1fr 1fr 1fr 1fr 1fr);
   grid-template-columns: repeat(5, 1fr);
 }
 
@@ -616,7 +616,7 @@ button:hover {
     border-bottom: 4px;
     border-bottom-style: solid;
     -o-border-image: -o-linear-gradient(left, #31d35c, #2bb7da);
-       border-image: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+       border-image: -webkit-linear-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
        border-image: linear-gradient(to right, #31d35c, #2bb7da);
     border-image-slice: 1;
     color: rgb(39, 37, 37);
@@ -710,7 +710,7 @@ button:hover {
   .footer-content-items {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[1];
+    -ms-grid-columns: (1fr);
     grid-template-columns: repeat(1, 1fr);
     text-align: center;
     row-gap: 2em;
